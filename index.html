@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Who Wants to Be a Millionaire</h1>
+    <div class="title">
+      <input type="text" id="playerName" placeholder="Enter the name to start the game" />
+      <button id="startGame">Start Game</button>
+    </div>
+    <div id="questionContainer">
+      <h2 id="question"></h2>
+      <ul id="options">
+        <li id="option1"></li>
+        <li id="option2"></li>
+        <li id="option3"></li>
+        <li id="option4"></li>
+      </ul>
+    </div>
+    <button id="checkAnswer" class="hidden">Check Answer</button>
+    <button id="skipQuestion" class="hidden">Skip Question</button>
+    <button id="hideAnswers" class="hidden">Hide 2 Wrong Answers</button>
+  </body>
+</html>

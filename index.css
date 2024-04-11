@@ -1,0 +1,38 @@
+.hidden {
+  display: none;
+}
+.active {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  text-align: center;
+  justify-self: center;
+  margin-top: 50px;
+}
+.title {
+  text-align: center;
+  justify-self: center;
+}
+.title > input {
+  width: 20%;
+  padding-left: 20px;
+}
+#questionContainer {
+  margin-left: 520px;
+  margin-top: 40px;
+}
+#questionContainer > h2 {
+  margin-right: 400px;
+}
+#questionContainer > ul > li {
+  margin-right: 750px;
+  list-style-type: decimal;
+}
+#checkAnswer {
+  margin-left: 520px;
+}
